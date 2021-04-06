@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrenciesConverterActivity">
+
+    <ImageView
+        android:id="@+id/plnToOtherImage"
+        android:layout_width="225dp"
+        android:layout_height="87dp"
+        android:contentDescription="@"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/poland_empty" />
+
+    <EditText
+        android:id="@+id/plnInput"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="@string/pln_text"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/plnToOtherValue"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plnToOtherImage" />
+
+    <EditText
+        android:id="@+id/chosenCurrencyInput"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:hint="@string/otherCurrencyCountValue"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otherToPlnImage" />
+
+    <Spinner
+        android:id="@+id/plnToOtherSpinner"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plnToOtherImage"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <Spinner
+        android:id="@+id/otherToPlnSpinner"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:scrollbarSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/chosenCurrencyInput"
+        app:layout_constraintTop_toBottomOf="@+id/otherToPlnImage" />
+
+    <TextView
+        android:id="@+id/plnToOtherValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/otherCurrencyCountValue"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/plnToOtherSpinner"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plnToOtherImage" />
+
+    <ImageView
+        android:id="@+id/otherToPlnImage"
+        android:layout_width="225dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="260dp"
+        android:contentDescription="@string/otherCurrencyCountValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/empty_poland" />
+
+    <TextView
+        android:id="@+id/otherToPlnValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/otherCurrencyCountValue"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toEndOf="@+id/otherToPlnSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/otherToPlnImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

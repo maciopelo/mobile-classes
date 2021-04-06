@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TapMeGame</string>
+    <string name="buttonLabelText">Start</string>
+    <string name="buttonLabelGameStart">Start</string>
+    <string name="timeLabelText">Time left: %1$d</string>
+    <string name="scoreLabelText">Score: %1$d</string>
+    <string name="message">Your score: %1$d clicks !</string>
+</resources>

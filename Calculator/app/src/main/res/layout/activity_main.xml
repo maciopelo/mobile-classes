@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+            <TextView android:id="@+id/Result" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:gravity="end" android:text="@string/num0" android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="50sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <Button android:id="@+id/NumButton1" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num1" android:textSize="30sp"/>
+            <Button android:id="@+id/NumButton2" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num2" android:textSize="30sp"/>
+            <Button android:id="@+id/NumButton3" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num3" android:textSize="30sp"/>
+            <Button android:id="@+id/AddButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/addSymbol" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <Button android:id="@+id/NumButton4" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num4" android:textSize="30sp"/>
+            <Button android:id="@+id/NumButton5" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num5" android:textSize="30sp"/>
+            <Button android:id="@+id/NumButton6" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num6" android:textSize="30sp"/>
+            <Button android:id="@+id/SubtractButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/subtractSymbol" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <Button android:id="@+id/NumButton7" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num7" android:textSize="30sp"/>
+            <Button android:id="@+id/NumButton8" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num8" android:textSize="30sp"/>
+            <Button android:id="@+id/NumButton9" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num9" android:textSize="30sp"/>
+            <Button android:id="@+id/MultiplyButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/multiplySymbol" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <Button android:id="@+id/ClearButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/clearSymbol" android:textSize="30sp" android:textStyle="bold"/>
+            <Button android:id="@+id/NumButton0" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/num0" android:textSize="30sp"/>
+            <Button android:id="@+id/DotButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/dotSymbol" android:textSize="30sp"/>
+            <Button android:id="@+id/DivideButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/divideSymbol" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <Button android:id="@+id/CalculateButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/equalitySymbol" android:textSize="30sp"/>
+            <Button android:id="@+id/PowerButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/powerSymbol" android:textSize="30sp"/>
+            <Button android:id="@+id/PercentageButton" style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/percentageSymbol" android:textSize="30sp"/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

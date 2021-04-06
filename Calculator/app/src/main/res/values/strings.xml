@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Maciej_Koch_cz_8</string>
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="dotSymbol">.</string>
+    <string name="addSymbol">+</string>
+    <string name="subtractSymbol">-</string>
+    <string name="divideSymbol">÷</string>
+    <string name="multiplySymbol">*</string>
+    <string name="powerSymbol">^</string>
+    <string name="percentageSymbol">%</string>
+    <string name="equalitySymbol">=</string>
+    <string name="clearSymbol">C</string>
+    <string name="error">Błąd</string>
+</resources>
